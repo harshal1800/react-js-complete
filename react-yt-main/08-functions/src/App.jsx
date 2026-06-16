@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
 const App = () => {
   function btnClicked(){
-    console.log('hello');
+    console.log('hello harshal');
   }
   return (
     <div>
-      <button onClick={btnClicked}>Click</button>
+      <button onDoubleClick={btnClicked}>Click</button>
     </div>
   )
 }
